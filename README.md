@@ -23,5 +23,5 @@ $ ./cmake-build/test/unit_tests_app
 
 Clean
 ```bash
-$ cmake --build cmake
+$ rm -rf cmake-build
 ```

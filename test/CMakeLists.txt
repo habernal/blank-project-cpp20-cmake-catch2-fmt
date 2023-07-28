@@ -1,8 +1,7 @@
 # unit_tests_app is an arbitrary name of the built executable file
 add_executable(unit_tests_app UnitTests.cpp)
 
-# Dependency management: Add micro-test framework (1.1.9 release)
-# so we can import <boost/ut.hpp> in tests
+# Dependency management: Add Catch2 framework
 include(FetchContent)
 FetchContent_Declare(
         Catch2
